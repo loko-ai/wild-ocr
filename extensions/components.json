@@ -1,0 +1,40 @@
+[
+ {
+  "name": "WildOcr",
+  "description": "",
+  "group": "Custom",
+  "icon": "RiDoorOpenLine",
+  "click": null,
+  "events": null,
+  "configured": true,
+  "inputs": [
+   {
+    "id": "image",
+    "label": "image",
+    "service": "",
+    "to": "output"
+   }
+  ],
+  "outputs": [
+   {
+    "id": "output",
+    "label": "output"
+   }
+  ],
+  "options": {
+   "values": {},
+   "args": [
+    {
+     "name": "boxes",
+     "type": "boolean",
+     "label": "boxes",
+     "helper": "Include bounding boxes",
+     "group": "",
+     "value": false,
+     "description": "Coordinates of the bounding boxes around the text",
+     "validation": null
+    }
+   ]
+  }
+ }
+]

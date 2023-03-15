@@ -1,0 +1,7 @@
+{
+  "main": {
+    "volumes": [
+      "/var/opt/keras-ocr:/root/.keras-ocr"
+    ]
+  }
+}

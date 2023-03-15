@@ -1,0 +1,7 @@
+install
+keras-ocr
+tensorflow
+sanic
+sanic-cors
+loko-extensions
+requests
